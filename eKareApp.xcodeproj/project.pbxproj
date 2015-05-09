@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847C67651ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C67641ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.m */; };
+		847C676C1AE07BC400ADA531 /* ConsentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C676B1AE07BC400ADA531 /* ConsentViewController.m */; };
+		847C676F1AE0929F00ADA531 /* PatientInfoControllerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C676E1AE0929F00ADA531 /* PatientInfoControllerTableViewController.m */; };
+		847C67751AE19CA800ADA531 /* patientInfo.sql in Resources */ = {isa = PBXBuildFile; fileRef = 847C67741AE19CA800ADA531 /* patientInfo.sql */; };
+		847C67781AE46C8500ADA531 /* ImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 847C67771AE46C8500ADA531 /* ImageViewViewController.m */; };
+		8498F4EC1AE9D92B001BE777 /* WoundInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498F4EB1AE9D92B001BE777 /* WoundInfo.m */; };
+		8498F4EF1AE9E5DC001BE777 /* addWound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498F4EE1AE9E5DC001BE777 /* addWound.m */; };
+		8498F4F11AE9ED4A001BE777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498F4F01AE9ED4A001BE777 /* AppDelegate.m */; };
+		8498F4F31AEDC41F001BE777 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8498F4F21AEDC41F001BE777 /* logo.png */; };
+		8498F4F61AF32B83001BE777 /* Login.m in Sources */ = {isa = PBXBuildFile; fileRef = 8498F4F51AF32B83001BE777 /* Login.m */; };
+		84B12CFC1AC8CAA100E7DFCD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B12CFB1AC8CAA100E7DFCD /* main.m */; };
+		84B12D051AC8CAA100E7DFCD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B12D031AC8CAA100E7DFCD /* Main.storyboard */; };
+		84B12D071AC8CAA100E7DFCD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B12D061AC8CAA100E7DFCD /* Images.xcassets */; };
+		84B12D0A1AC8CAA100E7DFCD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B12D081AC8CAA100E7DFCD /* LaunchScreen.xib */; };
+		84B12D161AC8CAA100E7DFCD /* eKareAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B12D151AC8CAA100E7DFCD /* eKareAppTests.m */; };
+		84B12D201AD6DE7F00E7DFCD /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B12D1F1AD6DE7F00E7DFCD /* libsqlite3.dylib */; };
+		84B12D231AD6DF9500E7DFCD /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B12D221AD6DF9500E7DFCD /* DBManager.m */; };
+		84B12D281AD7143E00E7DFCD /* AddPatientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B12D271AD7143E00E7DFCD /* AddPatientViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B12D101AC8CAA100E7DFCD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B12CEE1AC8CAA100E7DFCD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B12CF51AC8CAA100E7DFCD;
+			remoteInfo = eKareApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		847C67631ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PatientDirectoryControllerTableViewController.h; path = ../PatientDirectoryControllerTableViewController.h; sourceTree = "<group>"; };
+		847C67641ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PatientDirectoryControllerTableViewController.m; path = ../PatientDirectoryControllerTableViewController.m; sourceTree = "<group>"; };
+		847C676A1AE07BC400ADA531 /* ConsentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConsentViewController.h; sourceTree = "<group>"; };
+		847C676B1AE07BC400ADA531 /* ConsentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConsentViewController.m; sourceTree = "<group>"; };
+		847C676D1AE0929F00ADA531 /* PatientInfoControllerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatientInfoControllerTableViewController.h; sourceTree = "<group>"; };
+		847C676E1AE0929F00ADA531 /* PatientInfoControllerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PatientInfoControllerTableViewController.m; sourceTree = "<group>"; };
+		847C67741AE19CA800ADA531 /* patientInfo.sql */ = {isa = PBXFileReference; lastKnownFileType = file; path = patientInfo.sql; sourceTree = "<group>"; };
+		847C67761AE46C8500ADA531 /* ImageViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewViewController.h; sourceTree = "<group>"; };
+		847C67771AE46C8500ADA531 /* ImageViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewViewController.m; sourceTree = "<group>"; };
+		8498F4EA1AE9D92B001BE777 /* WoundInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WoundInfo.h; sourceTree = "<group>"; };
+		8498F4EB1AE9D92B001BE777 /* WoundInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WoundInfo.m; sourceTree = "<group>"; };
+		8498F4ED1AE9E5DC001BE777 /* addWound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = addWound.h; sourceTree = "<group>"; };
+		8498F4EE1AE9E5DC001BE777 /* addWound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = addWound.m; sourceTree = "<group>"; };
+		8498F4F01AE9ED4A001BE777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = eKareApp/AppDelegate.m; sourceTree = "<group>"; };
+		8498F4F21AEDC41F001BE777 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8498F4F41AF32B83001BE777 /* Login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Login.h; sourceTree = "<group>"; };
+		8498F4F51AF32B83001BE777 /* Login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Login.m; sourceTree = "<group>"; };
+		84B12CF61AC8CAA100E7DFCD /* eKareApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eKareApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B12CFA1AC8CAA100E7DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B12CFB1AC8CAA100E7DFCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84B12D041AC8CAA100E7DFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B12D061AC8CAA100E7DFCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84B12D091AC8CAA100E7DFCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84B12D0F1AC8CAA100E7DFCD /* eKareAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eKareAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B12D141AC8CAA100E7DFCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B12D151AC8CAA100E7DFCD /* eKareAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = eKareAppTests.m; sourceTree = "<group>"; };
+		84B12D1F1AD6DE7F00E7DFCD /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		84B12D211AD6DF9500E7DFCD /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBManager.h; sourceTree = "<group>"; };
+		84B12D221AD6DF9500E7DFCD /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBManager.m; sourceTree = "<group>"; };
+		84B12D261AD7143E00E7DFCD /* AddPatientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPatientViewController.h; sourceTree = "<group>"; };
+		84B12D271AD7143E00E7DFCD /* AddPatientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPatientViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B12CF31AC8CAA100E7DFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B12D201AD6DE7F00E7DFCD /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B12D0C1AC8CAA100E7DFCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B12CED1AC8CAA100E7DFCD = {
+			isa = PBXGroup;
+			children = (
+				8498F4F01AE9ED4A001BE777 /* AppDelegate.m */,
+				84B12D211AD6DF9500E7DFCD /* DBManager.h */,
+				84B12D221AD6DF9500E7DFCD /* DBManager.m */,
+				847C67741AE19CA800ADA531 /* patientInfo.sql */,
+				84B12D1F1AD6DE7F00E7DFCD /* libsqlite3.dylib */,
+				84B12CF81AC8CAA100E7DFCD /* eKareApp */,
+				84B12D121AC8CAA100E7DFCD /* eKareAppTests */,
+				84B12CF71AC8CAA100E7DFCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B12CF71AC8CAA100E7DFCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B12CF61AC8CAA100E7DFCD /* eKareApp.app */,
+				84B12D0F1AC8CAA100E7DFCD /* eKareAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B12CF81AC8CAA100E7DFCD /* eKareApp */ = {
+			isa = PBXGroup;
+			children = (
+				847C67631ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.h */,
+				847C67641ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.m */,
+				84B12D031AC8CAA100E7DFCD /* Main.storyboard */,
+				84B12D261AD7143E00E7DFCD /* AddPatientViewController.h */,
+				84B12D271AD7143E00E7DFCD /* AddPatientViewController.m */,
+				84B12D061AC8CAA100E7DFCD /* Images.xcassets */,
+				84B12D081AC8CAA100E7DFCD /* LaunchScreen.xib */,
+				84B12CF91AC8CAA100E7DFCD /* Supporting Files */,
+				847C676A1AE07BC400ADA531 /* ConsentViewController.h */,
+				847C676B1AE07BC400ADA531 /* ConsentViewController.m */,
+				847C676D1AE0929F00ADA531 /* PatientInfoControllerTableViewController.h */,
+				847C676E1AE0929F00ADA531 /* PatientInfoControllerTableViewController.m */,
+				847C67761AE46C8500ADA531 /* ImageViewViewController.h */,
+				847C67771AE46C8500ADA531 /* ImageViewViewController.m */,
+				8498F4EA1AE9D92B001BE777 /* WoundInfo.h */,
+				8498F4EB1AE9D92B001BE777 /* WoundInfo.m */,
+				8498F4ED1AE9E5DC001BE777 /* addWound.h */,
+				8498F4EE1AE9E5DC001BE777 /* addWound.m */,
+				8498F4F41AF32B83001BE777 /* Login.h */,
+				8498F4F51AF32B83001BE777 /* Login.m */,
+			);
+			path = eKareApp;
+			sourceTree = "<group>";
+		};
+		84B12CF91AC8CAA100E7DFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8498F4F21AEDC41F001BE777 /* logo.png */,
+				84B12CFA1AC8CAA100E7DFCD /* Info.plist */,
+				84B12CFB1AC8CAA100E7DFCD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84B12D121AC8CAA100E7DFCD /* eKareAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B12D151AC8CAA100E7DFCD /* eKareAppTests.m */,
+				84B12D131AC8CAA100E7DFCD /* Supporting Files */,
+			);
+			path = eKareAppTests;
+			sourceTree = "<group>";
+		};
+		84B12D131AC8CAA100E7DFCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84B12D141AC8CAA100E7DFCD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B12CF51AC8CAA100E7DFCD /* eKareApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B12D191AC8CAA100E7DFCD /* Build configuration list for PBXNativeTarget "eKareApp" */;
+			buildPhases = (
+				84B12CF21AC8CAA100E7DFCD /* Sources */,
+				84B12CF31AC8CAA100E7DFCD /* Frameworks */,
+				84B12CF41AC8CAA100E7DFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eKareApp;
+			productName = eKareApp;
+			productReference = 84B12CF61AC8CAA100E7DFCD /* eKareApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B12D0E1AC8CAA100E7DFCD /* eKareAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B12D1C1AC8CAA100E7DFCD /* Build configuration list for PBXNativeTarget "eKareAppTests" */;
+			buildPhases = (
+				84B12D0B1AC8CAA100E7DFCD /* Sources */,
+				84B12D0C1AC8CAA100E7DFCD /* Frameworks */,
+				84B12D0D1AC8CAA100E7DFCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B12D111AC8CAA100E7DFCD /* PBXTargetDependency */,
+			);
+			name = eKareAppTests;
+			productName = eKareAppTests;
+			productReference = 84B12D0F1AC8CAA100E7DFCD /* eKareAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B12CEE1AC8CAA100E7DFCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ASU;
+				TargetAttributes = {
+					84B12CF51AC8CAA100E7DFCD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = 2YC8BVFJCE;
+					};
+					84B12D0E1AC8CAA100E7DFCD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 84B12CF51AC8CAA100E7DFCD;
+					};
+				};
+			};
+			buildConfigurationList = 84B12CF11AC8CAA100E7DFCD /* Build configuration list for PBXProject "eKareApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B12CED1AC8CAA100E7DFCD;
+			productRefGroup = 84B12CF71AC8CAA100E7DFCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B12CF51AC8CAA100E7DFCD /* eKareApp */,
+				84B12D0E1AC8CAA100E7DFCD /* eKareAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B12CF41AC8CAA100E7DFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B12D051AC8CAA100E7DFCD /* Main.storyboard in Resources */,
+				8498F4F31AEDC41F001BE777 /* logo.png in Resources */,
+				84B12D0A1AC8CAA100E7DFCD /* LaunchScreen.xib in Resources */,
+				847C67751AE19CA800ADA531 /* patientInfo.sql in Resources */,
+				84B12D071AC8CAA100E7DFCD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B12D0D1AC8CAA100E7DFCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B12CF21AC8CAA100E7DFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8498F4F11AE9ED4A001BE777 /* AppDelegate.m in Sources */,
+				8498F4F61AF32B83001BE777 /* Login.m in Sources */,
+				84B12D281AD7143E00E7DFCD /* AddPatientViewController.m in Sources */,
+				8498F4EF1AE9E5DC001BE777 /* addWound.m in Sources */,
+				847C67781AE46C8500ADA531 /* ImageViewViewController.m in Sources */,
+				847C676C1AE07BC400ADA531 /* ConsentViewController.m in Sources */,
+				847C676F1AE0929F00ADA531 /* PatientInfoControllerTableViewController.m in Sources */,
+				847C67651ADDEDD900ADA531 /* PatientDirectoryControllerTableViewController.m in Sources */,
+				8498F4EC1AE9D92B001BE777 /* WoundInfo.m in Sources */,
+				84B12CFC1AC8CAA100E7DFCD /* main.m in Sources */,
+				84B12D231AD6DF9500E7DFCD /* DBManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B12D0B1AC8CAA100E7DFCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B12D161AC8CAA100E7DFCD /* eKareAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B12D111AC8CAA100E7DFCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B12CF51AC8CAA100E7DFCD /* eKareApp */;
+			targetProxy = 84B12D101AC8CAA100E7DFCD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B12D031AC8CAA100E7DFCD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B12D041AC8CAA100E7DFCD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B12D081AC8CAA100E7DFCD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B12D091AC8CAA100E7DFCD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B12D171AC8CAA100E7DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84B12D181AC8CAA100E7DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B12D1A1AC8CAA100E7DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eKareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		84B12D1B1AC8CAA100E7DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = eKareApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		84B12D1D1AC8CAA100E7DFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eKareAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eKareApp.app/eKareApp";
+			};
+			name = Debug;
+		};
+		84B12D1E1AC8CAA100E7DFCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = eKareAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eKareApp.app/eKareApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B12CF11AC8CAA100E7DFCD /* Build configuration list for PBXProject "eKareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B12D171AC8CAA100E7DFCD /* Debug */,
+				84B12D181AC8CAA100E7DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B12D191AC8CAA100E7DFCD /* Build configuration list for PBXNativeTarget "eKareApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B12D1A1AC8CAA100E7DFCD /* Debug */,
+				84B12D1B1AC8CAA100E7DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B12D1C1AC8CAA100E7DFCD /* Build configuration list for PBXNativeTarget "eKareAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B12D1D1AC8CAA100E7DFCD /* Debug */,
+				84B12D1E1AC8CAA100E7DFCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B12CEE1AC8CAA100E7DFCD /* Project object */;
+}
